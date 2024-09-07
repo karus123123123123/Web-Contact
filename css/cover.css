@@ -53,6 +53,21 @@
         border-radius: 2px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
+    div#form-information {
+        flex-direction: column;
+        align-items: center;
+    }
+    div#submit {
+        text-align: center;
+        width: 139px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid black;
+        background-color: #20baca;
+        font-weight: bolder;
+        font-size: 20px;
+        cursor: pointer;
+    }
 }
 
 

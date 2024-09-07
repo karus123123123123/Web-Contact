@@ -56,38 +56,14 @@ $(document).ready(function() {
         }, 2000);
     });
 });
-//backtop
-// const checkEmail = document.querySelector("#email");
-// const notificationEmail = document.querySelector("#notification");
-// const checkName = document.querySelector("#name");
-// const notificationName = document.querySelector("#notification-name");
-// function validateEmail() {
-//     if (checkEmail.value == "") {
-//         notificationEmail.innerHTML = "Please enter your email!";
-//         notificationEmail.style.display = "block";
-//     } else if (checkEmail.value.indexOf("@") == -1) {
-//         notificationEmail.innerHTML = "Invalid email address!";
-//         notificationEmail.style.display = "block";
-//     } else {
-//         notificationEmail.style.display = "none";
-//     }
-// }
-// function validateName() {
-//     if (checkName.value == "") {
-//         notificationName.innerHTML = "Please enter your name!";
-//     } else {
-//         notificationName.style.display = "none";
-//     }
-// }
-// checkEmail.addEventListener("change ", validateEmail);
-// checkName.addEventListener("change ", validateName);
+
 function showMessage() {
     alert("Product added to cart successfully!");
 }
 const SubmitButton = document.getElementById("submit-button");
 
 function changecolor() {
-    SubmitButton.style.backgroundColor = "green";
+    SubmitButton.style.backgroundColor = "#1CA4B2";
 }
 
 function resetcolor() {
